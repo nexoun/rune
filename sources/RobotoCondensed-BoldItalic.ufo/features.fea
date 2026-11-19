@@ -873,6 +873,14 @@ feature locl {
 
 
 
+feature liga {
+   # Compatibility placeholder: the upstream Roboto FontBakery profile
+   # requires the liga feature tag to exist. Actual optional fi/fl ligatures
+   # are intentionally exposed only through dlig below. This identity
+   # substitution has no visual effect.
+   sub f by f;
+} liga;
+
 feature dlig {
    lookup dlig_standard_01 {
       sub f f i by f_f_i;
