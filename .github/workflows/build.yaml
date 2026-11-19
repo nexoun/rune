@@ -26,6 +26,8 @@ jobs:
         run: sh sources/build.sh
 
       - name: Test fonts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           fontbakery check-profile tests/test_general.py fonts/unhinted/Roboto[ital,wdth,wght].ttf
           fontbakery check-profile tests/test_android.py fonts/android/Roboto[ital,wdth,wght].ttf

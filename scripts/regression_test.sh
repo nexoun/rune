@@ -7,8 +7,16 @@ mkdir -p prev_release
 OLD_FONT=prev_release/hinted/Roboto\[ital\,wdth\,wght\].ttf
 GENNED_FONT=fonts/hinted/Roboto\[ital\,wdth\,wght\].ttf
 
-DL_URL=$(curl https://api.github.com/repositories/86081751/releases/latest | jq -r .assets[0].browser_download_url)
-wget $DL_URL
+API_URL="https://api.github.com/repositories/86081751/releases/latest"
+# Use the token to avoid the rate limit on anonymous requests.
+RESP=$(curl -sS -H "Authorization: Bearer $GITHUB_TOKEN" "$API_URL")
+DL_URL=$(echo "$RESP" | jq -r '.assets[0].browser_download_url // empty')
+if [ -z "$DL_URL" ]; then
+    echo "Could not get the download URL of the latest release. API response:"
+    echo "$RESP"
+    exit 1
+fi
+wget "$DL_URL"
 unzip Roboto_*.zip -d prev_release
 
 
