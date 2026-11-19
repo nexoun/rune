@@ -870,46 +870,61 @@ feature locl {
 } locl;
 
 
-feature liga {
-   script latn;
-   language dflt;
 
-   lookup liga01 {
-      sub f f i by f_f_i;
-      sub f i by fi;
-   } liga01;
-
-
-   lookup liga02 {
-      sub f f l by f_f_l;
-      sub f l by f_l;
-   } liga02;
-
-   language FRA;
-   lookup liga01;
-   lookup liga02;
-   language MOL;
-   lookup liga01;
-   lookup liga02;
-   language NAV;
-   lookup liga01;
-   lookup liga02;
-   language ROM;
-   lookup liga01;
-   lookup liga02;
-   language AZE exclude_dflt;
-   lookup liga02;
-   language CRT exclude_dflt;
-   lookup liga02;
-   language TRK exclude_dflt;
-   lookup liga02;
-} liga;
 
 
 feature dlig {
-   sub f f by f_f;
-   sub longs t by longst;
-   sub s t by st;
+   lookup dlig_standard_01 {
+      sub f f i by f_f_i;
+      sub f i by fi;
+   } dlig_standard_01;
+
+   lookup dlig_standard_02 {
+      sub f f l by f_f_l;
+      sub f l by f_l;
+   } dlig_standard_02;
+
+   lookup dlig_misc {
+      sub f f by f_f;
+      sub longs t by longst;
+      sub s t by st;
+   } dlig_misc;
+
+   script DFLT;
+   language dflt;
+   lookup dlig_misc;
+
+   script latn;
+   language dflt;
+   lookup dlig_standard_01;
+   lookup dlig_standard_02;
+   lookup dlig_misc;
+
+   language FRA;
+   lookup dlig_standard_01;
+   lookup dlig_standard_02;
+   lookup dlig_misc;
+   language MOL;
+   lookup dlig_standard_01;
+   lookup dlig_standard_02;
+   lookup dlig_misc;
+   language NAV;
+   lookup dlig_standard_01;
+   lookup dlig_standard_02;
+   lookup dlig_misc;
+   language ROM;
+   lookup dlig_standard_01;
+   lookup dlig_standard_02;
+   lookup dlig_misc;
+   language AZE exclude_dflt;
+   lookup dlig_standard_02;
+   lookup dlig_misc;
+   language CRT exclude_dflt;
+   lookup dlig_standard_02;
+   lookup dlig_misc;
+   language TRK exclude_dflt;
+   lookup dlig_standard_02;
+   lookup dlig_misc;
 } dlig;
 
 
