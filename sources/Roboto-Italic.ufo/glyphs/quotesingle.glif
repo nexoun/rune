@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotesingle" format="2">
+  <advance width="347.26" />
+  <unicode hex="0027" />
+  <guideline x="0.0" y="901.0" angle="0.0" identifier="DKFqtlXNCH" />
+  <guideline x="0.0" y="555.0" angle="0.0" identifier="LUR9zECGPu" />
+  <outline>
+    <contour>
+      <point x="427.0767" y="1535.9248183692896" type="line" />
+      <point x="237.4155" y="1535.9531266226847" type="line" />
+      <point x="216.2987" y="1433.670944659646" type="line" />
+      <point x="138.2156" y="1058.0282506327337" type="line" />
+      <point x="303.6009" y="1058.0952380994447" type="line" />
+      <point x="402.8596" y="1418.7015716871354" type="line" />
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.DKFqtlXNCH</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.LUR9zECGPu</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>

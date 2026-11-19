@@ -1,0 +1,42 @@
+name: Roboto
+on: [workflow_dispatch]
+
+jobs:
+
+  build:
+    name: Build Roboto
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Setup python
+        uses: actions/setup-python@v7
+        with:
+          # TODO use build matrix?
+          python-version: 3.11.18
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt install libharfbuzz-dev libharfbuzz-bin libcairo2-dev jq
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install .
+
+      - name: Build fonts
+        run: sh sources/build.sh
+
+      - name: Test fonts
+        run: |
+          fontbakery check-profile tests/test_general.py fonts/unhinted/Roboto[ital,wdth,wght].ttf
+          fontbakery check-profile tests/test_android.py fonts/android/Roboto[ital,wdth,wght].ttf
+          fontbakery check-profile tests/test_web.py fonts/web/Roboto[ital,wdth,wght].ttf
+          sh scripts/regression_test.sh
+
+      - name: Upload
+        uses: actions/upload-artifact@v7
+        with:
+          name: roboto_files
+          path: |
+            fonts/
+            diffs/
+

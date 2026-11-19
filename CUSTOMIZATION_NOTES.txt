@@ -1,0 +1,20 @@
+Roboto Subtitle customization notes
+
+Q outline
+- Uppercase Q tail enters farther into the counter, reaching toward the middle of the circle along its diagonal while staying short of the geometric center.
+- The lower-right external extension remains shortened to retain a compact Q silhouette.
+- The modified outline is applied to Q, Q.cn, Q.smcp and Q.ss06 where those glyphs exist.
+
+Kerning
+- The explicit OpenType GPOS pair `r`–`t` is set uniformly to +80 font units in all 20 static TTFs, including all available weights, upright/italic styles, and Regular/Condensed widths.
+- The same +80 value is assigned to `racute`–`t`, `rcaron`–`t`, and `rcommaaccent`–`t` in the static fonts and all 13 editable UFO masters.
+- The +80 values are explicit pair overrides; unrelated class-based kerning rules are left unchanged.
+
+Quotation marks
+- U+0027 `quotesingle` and U+0022 `quotedbl` are more strongly thickened than in v1.002 by independently expanding each contour horizontally around its center.
+- Slant, height, advance widths, and the gap between the two stems of the double quote are preserved.
+- Horizontal scale relative to the unmodified Roboto quote outlines: Thin 1.20x, Light 1.25x, Regular 1.30x, Medium 1.32x, Bold 1.36x, Black 1.42x.
+
+Build note
+- Static TTFs are derived from locally installed unhinted Roboto 2.138 binaries.
+- Q outlines and source master edits are based on the supplied Roboto classic UFO source tree (identified as v2.136).
