@@ -8628,7 +8628,7 @@
 	<key>public.kern1.r_LC</key>
 	<dict>
 		<key>f</key>
-		<integer>34</integer>
+		<integer>40</integer>
 		<key>public.kern2.a_LC</key>
 		<integer>-30</integer>
 		<key>public.kern2.alpha</key>
@@ -8642,7 +8642,7 @@
 		<key>public.kern2.o_LC</key>
 		<integer>-36</integer>
 		<key>t</key>
-		<integer>37</integer>
+		<integer>49</integer>
 	</dict>
 	<key>public.kern1.uni0409</key>
 	<dict>
@@ -9138,28 +9138,16 @@
 	</dict>
 	<key>racute</key>
 	<dict>
-		<key>f</key>
-		<integer>0</integer>
-		<key>t</key>
-		<integer>0</integer>
 		<key>w</key>
 		<integer>17</integer>
 	</dict>
 	<key>rcaron</key>
 	<dict>
-		<key>f</key>
-		<integer>0</integer>
-		<key>t</key>
-		<integer>0</integer>
 		<key>w</key>
 		<integer>17</integer>
 	</dict>
 	<key>rcommaaccent</key>
 	<dict>
-		<key>f</key>
-		<integer>0</integer>
-		<key>t</key>
-		<integer>0</integer>
 		<key>w</key>
 		<integer>17</integer>
 	</dict>
@@ -10649,19 +10637,11 @@
 	</dict>
 	<key>uni0211</key>
 	<dict>
-		<key>f</key>
-		<integer>0</integer>
-		<key>t</key>
-		<integer>0</integer>
 		<key>w</key>
 		<integer>17</integer>
 	</dict>
 	<key>uni0213</key>
 	<dict>
-		<key>f</key>
-		<integer>0</integer>
-		<key>t</key>
-		<integer>0</integer>
 		<key>w</key>
 		<integer>17</integer>
 	</dict>
@@ -11142,10 +11122,6 @@
 	</dict>
 	<key>uni024D</key>
 	<dict>
-		<key>f</key>
-		<integer>0</integer>
-		<key>t</key>
-		<integer>0</integer>
 		<key>w</key>
 		<integer>17</integer>
 	</dict>
@@ -20313,37 +20289,21 @@
 	</dict>
 	<key>uni1E59</key>
 	<dict>
-		<key>f</key>
-		<integer>0</integer>
-		<key>t</key>
-		<integer>0</integer>
 		<key>w</key>
 		<integer>17</integer>
 	</dict>
 	<key>uni1E5B</key>
 	<dict>
-		<key>f</key>
-		<integer>0</integer>
-		<key>t</key>
-		<integer>0</integer>
 		<key>w</key>
 		<integer>17</integer>
 	</dict>
 	<key>uni1E5D</key>
 	<dict>
-		<key>f</key>
-		<integer>0</integer>
-		<key>t</key>
-		<integer>0</integer>
 		<key>w</key>
 		<integer>17</integer>
 	</dict>
 	<key>uni1E5F</key>
 	<dict>
-		<key>f</key>
-		<integer>0</integer>
-		<key>t</key>
-		<integer>0</integer>
 		<key>w</key>
 		<integer>17</integer>
 	</dict>

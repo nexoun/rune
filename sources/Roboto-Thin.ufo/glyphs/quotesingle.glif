@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotesingle" format="2">
   <advance width="340" />
   <unicode hex="0027" />
@@ -6,12 +6,12 @@
   <guideline x="0.0" y="555.0" angle="0.0" identifier="FXHE9Mv5St" />
   <outline>
     <contour>
-      <point x="205.9392" y="1536" type="line" />
-      <point x="140.7312" y="1536" type="line" />
-      <point x="140.7312" y="1365" type="line" />
-      <point x="130.0608" y="1122" type="line" />
-      <point x="189.3408" y="1122" type="line" />
-      <point x="205.9392" y="1367" type="line" />
+      <point x="204.7364" y="1536.0435" type="line" />
+      <point x="142.1333" y="1535.9493" type="line" />
+      <point x="141.8863" y="1364.9582" type="line" />
+      <point x="131.2911" y="1121.9555" type="line" />
+      <point x="188.203" y="1122.0411" type="line" />
+      <point x="204.4923" y="1367.0523" type="line" />
     </contour>
   </outline>
   <lib>
