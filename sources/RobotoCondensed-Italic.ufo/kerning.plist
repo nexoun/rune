@@ -8757,7 +8757,7 @@
 	<key>public.kern1.r_LC</key>
 	<dict>
 		<key>f</key>
-		<integer>0</integer>
+		<integer>12</integer>
 		<key>public.kern2.a_LC</key>
 		<integer>-40</integer>
 		<key>public.kern2.alpha</key>
@@ -8771,7 +8771,7 @@
 		<key>public.kern2.o_LC</key>
 		<integer>-20</integer>
 		<key>t</key>
-		<integer>20</integer>
+		<integer>36</integer>
 	</dict>
 	<key>public.kern1.uni0409</key>
 	<dict>

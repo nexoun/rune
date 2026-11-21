@@ -8757,7 +8757,7 @@
 	<key>public.kern1.r_LC</key>
 	<dict>
 		<key>f</key>
-		<integer>0</integer>
+		<integer>4</integer>
 		<key>public.kern2.a_LC</key>
 		<integer>-40</integer>
 		<key>public.kern2.alpha</key>

@@ -1,23 +1,23 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedbl" format="2">
   <advance width="637.29" />
   <unicode hex="0022" />
   <outline>
     <contour>
-      <point x="457.1445" y="1536.9349215091856" type="line" />
-      <point x="185.6793" y="1536.9737216576111" type="line" />
-      <point x="153.1921" y="1386.0098336945996" type="line" />
-      <point x="67.9352" y="986.0333430743034" type="line" />
-      <point x="288.36" y="986.0970680489534" type="line" />
-      <point x="424.6841" y="1385.840340642715" type="line" />
+      <point x="454.8092" y="1536.9349215091856" type="line" />
+      <point x="186.6016" y="1536.9737216576111" type="line" />
+      <point x="154.5043" y="1386.0098336945996" type="line" />
+      <point x="70.2705" y="986.0333430743034" type="line" />
+      <point x="288.0502" y="986.0970680489534" type="line" />
+      <point x="422.7384" y="1385.840340642715" type="line" />
     </contour>
     <contour>
-      <point x="773.0179" y="1536.933931218022" type="line" />
-      <point x="504.2226" y="1536.9592174670136" type="line" />
-      <point x="473.6065" y="1395.0080285694164" type="line" />
-      <point x="386.4354" y="986.0380042876801" type="line" />
-      <point x="605.5046" y="986.0957500008913" type="line" />
-      <point x="740.5573" y="1385.853968469727" type="line" />
+      <point x="770.6984" y="1536.933931218022" type="line" />
+      <point x="505.1286" y="1536.9592174670136" type="line" />
+      <point x="474.8799" y="1395.0080285694164" type="line" />
+      <point x="388.7549" y="986.0380042876801" type="line" />
+      <point x="605.1953" y="986.0957500008913" type="line" />
+      <point x="738.6273" y="1385.853968469727" type="line" />
     </contour>
   </outline>
 </glyph>

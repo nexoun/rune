@@ -1,23 +1,23 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedbl" format="2">
   <advance width="528" />
   <unicode hex="0022" />
   <outline>
     <contour>
-      <point x="219.5" y="1536" type="line" />
-      <point x="148.7" y="1536" type="line" />
-      <point x="148.7" y="1389" type="line" />
-      <point x="141.5" y="1125" type="line" />
-      <point x="206.3" y="1125" type="line" />
-      <point x="219.5" y="1393" type="line" />
+      <point x="219.032" y="1536" type="line" />
+      <point x="149.0816" y="1536" type="line" />
+      <point x="149.0816" y="1389" type="line" />
+      <point x="141.968" y="1125" type="line" />
+      <point x="205.9904" y="1125" type="line" />
+      <point x="219.032" y="1393" type="line" />
     </contour>
     <contour>
-      <point x="423.4" y="1536" type="line" />
-      <point x="353.8" y="1536" type="line" />
-      <point x="353.8" y="1389" type="line" />
-      <point x="346.6" y="1125" type="line" />
-      <point x="412.6" y="1125" type="line" />
-      <point x="423.4" y="1393" type="line" />
+      <point x="422.9392" y="1536" type="line" />
+      <point x="354.1744" y="1536" type="line" />
+      <point x="354.1744" y="1389" type="line" />
+      <point x="347.0608" y="1125" type="line" />
+      <point x="412.2688" y="1125" type="line" />
+      <point x="422.9392" y="1393" type="line" />
     </contour>
   </outline>
 </glyph>
