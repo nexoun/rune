@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rcommaaccent" format="2">
-    <advance width="685" />
+    <advance width="712" />
     <unicode hex="0157" />
     <anchor x="413" y="1290" name="parent_top" />
     <anchor x="685" y="1600" name="top_dd" />

@@ -6,12 +6,12 @@
   <guideline x="0.0" y="555.0" angle="0.0" identifier="mVZB3nHHMw" />
   <outline>
     <contour>
-      <point x="461.9476" y="1537.3491" type="line" />
-      <point x="191.9387" y="1533.8147" type="line" />
-      <point x="156.6694" y="1372.1664" type="line" />
-      <point x="72.5207" y="982.9286" type="line" />
-      <point x="306.0994" y="986.0412" type="line" />
-      <point x="426.9373" y="1376.7885" type="line" />
+      <point x="442.0333" y="1544.487" type="line" />
+      <point x="222.1023" y="1523.0031" type="line" />
+      <point x="182.6084" y="1362.869" type="line" />
+      <point x="88.1425" y="977.3292" type="line" />
+      <point x="278.4037" y="995.9683" type="line" />
+      <point x="402.8229" y="1385.4319" type="line" />
     </contour>
   </outline>
   <lib>
